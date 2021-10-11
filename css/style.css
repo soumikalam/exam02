@@ -1,0 +1,229 @@
+/*
+		author: MD. Soumik Alam;
+        whatsapp:+880-1799267849;
+		mail: mdsoumikalam@gmail.com;
+
+*/
+
+/*
+	=====INDEX=====
+	1.header
+	2.home
+	3.How it works
+	4.Discover a project
+	5.Blog
+	6.Find out more
+	7.footer
+
+*/
+
+/*    global css   */
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+h2{
+	font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.btn:hover {
+    color: #7585f7ba;
+}
+
+/*    theme css   */
+
+
+/*  header scetion  */
+.nav-head{
+	background-color: #ffffff;
+}
+
+
+/* home section  */
+.home-main{
+	background: url(../image/banner.png)no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.home-text h2 {
+    margin-top: 170px;
+}
+.home-text p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 200;
+    margin: 34px 0px 50px;
+}
+.home-btn{
+	background-color: #35ff35;
+    padding: 10px 25px;
+    margin-bottom: 170px;
+   
+}
+
+
+/*   work section  */
+.work {
+    padding: 90px 0px 34px;
+    text-align: center;
+}
+.work-heading{
+	text-align: center;
+}
+.work-heading h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 50px;
+    color: #515151;
+    margin-bottom: 60px;
+}
+.work-heading p{
+    font-size: 18px;
+    color: #919191;
+    margin-bottom: 50px;
+}
+.work-heading h6{
+    font-size: 18px;
+    color: #919191;
+    margin-bottom: 160px;
+    font-weight: normal;
+}
+
+
+/*   blog section   */
+.blog-btn{
+	margin: 50px 0px;
+}
+.feature-heading p {
+    font-size: 20px;
+    color: #515151;
+}
+
+/*  project section  */
+.project-item {
+    display: flex;
+}
+
+.project-content h2
+{
+ color: #787e7f;
+ font-size: 23px;
+ padding: 40px 0px 30px;
+}
+.project-content p
+{
+ color: #787e7f;
+ font-size: 16px;
+ padding-bottom: 30px;
+}
+.project-img
+{
+    text-align: center;
+    margin-top: 74px;
+}
+.project-left {
+    background-color: #e2f8ff;
+    padding: 20px 20px;
+}
+.project-right {
+    background-color: #f5f9eb;
+    padding: 20px 20px;
+}
+
+.w-btn{
+	background-color: #26a6d1;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-bottom: 53px;	
+}
+.w-btn-2{
+	background-color: #add136;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-bottom: 53px;
+}
+
+/* blogs */
+
+.feature-heading h2
+{
+   color: #515151; 
+   font-size: 30px;
+   font-weight: bolder;
+   padding: 80px 0px 34px;
+}
+.feature-heading p
+{
+   color: #515151; 
+   font-size: 16px;
+   font-weight: lighter;
+   padding: 0px 0px 60px;
+}
+
+.blog-btn
+{
+    background-color: #ffffff;
+    padding: 10px 25px;
+    margin-top: 146px;
+}
+
+
+/* CARD PART STARTS HERE */
+#card {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+.card-main {
+    border-radius: 7px;
+}
+.card-img img {
+    display: block;
+    
+}
+.card-img {
+    position: relative;
+    width: 100%;
+}
+#btn {
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #FFF;
+    background: #26a6d1;
+    position: absolute;
+    bottom: 3%;
+    right: 8%;
+}
+#day2 {
+    margin-left: 240px;
+}
+.days {
+    border-bottom: 1px solid #515151;
+}
+.details {
+    text-align: end;
+    padding: 30px 0;
+}
+.details i{
+    color: #99c50a;
+    margin-left: 10px;
+}
+.days {
+    display: flex;
+}
+.card-content {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #b3b3b3;
+    border-radius: 0 0 7px 7px;
+}
+
+/* FOOTER PART STARTS HERE */
+.copy {
+    border-top: 1px solid #515151;
+    padding: 15px 0;
+}
+
